@@ -1,1 +1,4 @@
-select * from dev_db.public.Emp
+select *
+from {{ source('raw', 'Emp') }}
+
+
