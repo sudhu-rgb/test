@@ -1,0 +1,7 @@
+version: 2
+models:
+  - name: dim_category
+    columns:
+    - name: category_id
+    tests:
+      - not null
