@@ -1,9 +1,0 @@
-version: 2
-
-sources:
-  - name: dev_db
-    database: DEV_DB
-    schema: PUBLIC
-    tables:
-      - name: product
-

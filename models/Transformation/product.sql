@@ -1,1 +1,0 @@
-select * from {{ source('dev_db', 'product') }}
